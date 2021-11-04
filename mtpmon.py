@@ -32,6 +32,7 @@ class AsynchronousFileReader(threading.Thread):
 def substring_matches_line(line):
     target_substring = "Mtp"
     target_substring = "MtpDatabase"
+    target_substring = "USB"
     return target_substring in line
 
 # You'll need to add any command line arguments here.
